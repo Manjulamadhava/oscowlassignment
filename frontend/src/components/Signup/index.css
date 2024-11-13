@@ -1,0 +1,33 @@
+.maincontainer{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    width:100vw;
+    border:5px dashed white;
+    justify-content:center;
+    align-items:center;
+    gap:32px;
+  
+}
+
+
+.heading{
+    font-family:"Roboto";
+    font-size:30px;
+    font-weight:normal;
+}
+
+.form1{
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 2px 2px 20px 5px dark inset;
+}
+
+.input1{
+    padding:5px;
+    width:200px;
+    height:5px;
+}

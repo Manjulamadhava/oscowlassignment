@@ -1,0 +1,40 @@
+POST http://localhost:5000/signup
+Content-Type:application/json
+
+{
+    "username":"Kompalli MaheshChandra",
+    "password":"12345678"
+
+}
+
+###
+
+POST http://localhost:5000/login 
+Content-Type:application/json
+
+{
+    "username":"Kompalli MaheshChandra",
+    "password":"12345678"
+
+}
+
+###
+
+POST http://localhost:5000/tasks
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksInVzZXJuYW1lIjoiS29tcGFsbGkgTWFoZXNoQ2hhbmRyYSIsImlhdCI6MTczMTQ5NjcwMSwiZXhwIjoxNzMxNTAwMzAxfQ._6NmbEDz3Nb9M4kFWGKmRPgerBnEWYP4cDCA1mB53j4
+Content-Type: application/json
+
+{
+  "userId": 9,
+  "title": "Very Interactive Person",
+  "description": "Learn how to set up Express with SQLite",
+  "status": "in-progress"
+}
+
+###
+GET http://localhost:5000/tasks
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksInVzZXJuYW1lIjoiS29tcGFsbGkgTWFoZXNoQ2hhbmRyYSIsImlhdCI6MTczMTQ5NjcwMSwiZXhwIjoxNzMxNTAwMzAxfQ._6NmbEDz3Nb9M4kFWGKmRPgerBnEWYP4cDCA1mB53j4
+
+
+
+###
